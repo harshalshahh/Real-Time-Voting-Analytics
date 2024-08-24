@@ -10,12 +10,17 @@ streamlit-app.py: Consumes aggregated voting data and displays it in real-time u
 
 ->Prerequisites
 
-Python 3.9 or above installed on your machine
-Docker Compose installed on your machine
-Docker installed on your machine
+1)Python 3.9 or above installed on your machine
+
+2)Docker Compose installed on your machine
+
+3)Docker installed on your machine
 
 ->Steps to Run
 
-Clone this repository.
-Navigate to the root containing the Docker Compose file.
-Run the following command:
+1)Clone this repository.
+
+2)Navigate to the root containing the Docker Compose file.
+
+3)Run the following command:
+
