@@ -6,7 +6,8 @@ main.py: Creates required tables on PostgreSQL, sets up Kafka topic, and manages
 voting.py: Generates voting data and produces it to Kafka topic.
 spark-streaming.py: Enriches data from PostgreSQL, aggregates votes, and produces data to specific Kafka topics.
 streamlit-app.py: Consumes aggregated voting data and displays it in real-time using Streamlit.
-##Setting up the System
+
+## Setting up the System
 
 ->Prerequisites
 
