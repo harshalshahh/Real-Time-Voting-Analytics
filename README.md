@@ -1,6 +1,7 @@
 # Real-Time-Voting-Analytics
 Welcome to the Realtime Election Voting System project! This project aims to simulate a real-world election scenario where votes are cast, processed, and visualized in real-time. Leveraging modern technologies like Docker, Kafka, PostgreSQL, Python, Apache Spark, and Streamlit, we've built a robust, scalable, and live-updating voting platform.
-##System Components
+
+## System Components
 main.py: Creates required tables on PostgreSQL, sets up Kafka topic, and manages data flow.
 voting.py: Generates voting data and produces it to Kafka topic.
 spark-streaming.py: Enriches data from PostgreSQL, aggregates votes, and produces data to specific Kafka topics.
